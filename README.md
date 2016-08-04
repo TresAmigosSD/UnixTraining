@@ -11,36 +11,40 @@ $ man grep
 The above will show a detail manual page for the grep command.
 
 ## Text File Tranformation/Manipulation
-* [Input/output redirection](redirect.md)
-* [File hex dump](od_cmd.md)
-* [Unix vs. Dos/Windows text files](dos_unix_files.md)
-* [Translate characters](tr_cmd.md)
-* [Removing funny/weird characters](funny_chars.md)
-* [Searching files](grep_cmd.md)
-* [Selecting columns from a file](cut_cmd.md)
-* [Selecting top/bottom rows from a file](head_tail_cmd.md)
-* [Counting lines in file](wc_cmd.md)
-* [File difference](diff_cmp_cmd.md)
-* [File checksum](checksum_cmd.md)
-* [Sorting files](sort_cmd.md)
-* [Joining files](join_cmd.md)
+* [Input/output redirection](chapters/redirect.md)
+* [File hex dump](chapters/od_cmd.md)
+* [Unix vs. Dos/Windows text files](chapters/dos_unix_files.md)
+* [Translate characters](chapters/tr_cmd.md)
+* [Removing funny/weird characters](chapters/funny_chars.md)
+* [Searching files](chapters/grep_cmd.md)
+* [Selecting columns from a file](chapters/cut_cmd.md)
+* [Selecting top/bottom rows from a file](chapters/head_tail_cmd.md)
+* [Counting lines in file](chapters/wc_cmd.md)
+* [File difference](chapters/diff_cmp_cmd.md)
+* [File checksum](chapters/checksum_cmd.md)
+* [Sorting files](chapters/sort_cmd.md)
+* [Joining files](chapters/join_cmd.md)
 
 ## Misc Commands
 * [Finding/searching files across directories](find_cmd.md)
-* [Directory commands](dir_cmds.md)
-* [Timing Execution](time_cmd.md)
+* [Directory commands](chapters/dir_cmds.md)
+* [Timing Execution](chapters/time_cmd.md)
 
 ## General Purpose Data Manipulation "Languages"
-* [AWK](awk_cmd.md)
-* [SED](sed_cmd.md)
-* [PERL](perl_cmd.md)
-* [PYTHON](python_cmd.md)
+* [AWK](chapters/awk_cmd.md)
+* [SED](chapters/sed_cmd.md)
+* [PERL](chapters/perl_cmd.md)
+* [PYTHON](chapters/python_cmd.md)
+
+## Hadoop Commands
+* [Hadoop filesystem](chapters/hdfs.md)
+* [Yarn commands](chapters/yarn.md)
 
 ## Remote Session Management / Connection
-* [SSH](ssh_cmd.md)
-* [TMUX](tmux_cmd.md)
-* [SCREEN](screen_cmd.md)
+* [SSH](chapters/ssh_cmd.md)
+* [TMUX](chapters/tmux_cmd.md)
+* [SCREEN](chapters/screen_cmd.md)
 
 ## Virtualization Frameworks
-* [DOCKER](docker.md)
-* [Virtual Box](virtualbox.md)
+* [DOCKER](chapters/docker.md)
+* [Virtual Box](chapters/virtualbox.md)
