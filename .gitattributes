@@ -1,0 +1,2 @@
+# assume text files are in binary to avoid cr/lf transformation.
+*.txt binary
