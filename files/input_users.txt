@@ -1,0 +1,11 @@
+USER_ID:ACCT_NUM:USER_NAME
+3:5555:David
+5:789:Carol
+11:5555:Carol
+1:1234:Frank
+7:9876:Alice
+4:666:Bob
+7:54321:Alice
+2:123:Eric
+11:1234:Carol
+4:5566:Bob
