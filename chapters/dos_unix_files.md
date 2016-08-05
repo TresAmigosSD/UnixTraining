@@ -45,3 +45,7 @@ If the above commands are not available, the [TR](tr_cmd.md) command can be used
 ```bash
 $ tr -d '\r' < dosfile.txt > unixfile.txt
 ```
+
+## Other file encodings
+
+TODO: describe UTF8, code pages, etc and the iconv command.
