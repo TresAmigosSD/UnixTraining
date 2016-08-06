@@ -32,3 +32,16 @@ To delete a directory and all its contents, use the `rm -rf` command. **Warning*
 ```bash
 $ rm -rf foo
 ```
+
+## Directory Space Usage
+* `du` can be used to determine how much space a directory is using.
+* `df` can be used to determine how much space is availabe on the drive.
+
+```bash
+$ du -sh .
+ 20K	.
+
+$ df -h .
+Filesystem     Size   Used  Avail Capacity  iused    ifree %iused  Mounted on
+/dev/disk0s2  465Gi  213Gi  251Gi    46% 56000645 65927584   46%   /
+```
