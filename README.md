@@ -26,7 +26,7 @@ The above will show a detail manual page for the grep command.
 * [Joining files](chapters/join_cmd.md)
 
 ## Misc Commands
-* [Finding/searching files across directories](find_cmd.md)
+* [Finding/searching files across directories](chapters/find_cmd.md)
 * [Directory commands](chapters/dir_cmds.md)
 * [Timing Execution](chapters/time_cmd.md)
 
