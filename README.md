@@ -23,7 +23,6 @@ The above will show a detail manual page for the grep command.
 * [File difference](chapters/diff_cmp_cmd.md)
 * [File checksum](chapters/checksum_cmd.md)
 * [Sorting files](chapters/sort_cmd.md)
-* [Joining files](chapters/join_cmd.md)
 
 ## Misc Commands
 * [Finding/searching files across directories](chapters/find_cmd.md)
