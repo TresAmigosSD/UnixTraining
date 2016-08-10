@@ -30,8 +30,8 @@ The above will show a detail manual page for the grep command.
 * [Timing Execution](chapters/time_cmd.md)
 
 ## General Purpose Data Manipulation "Languages"
+* [Stream Editor (sed)](chapters/sed_cmd.md)
 * [AWK](chapters/awk_cmd.md)
-* [SED](chapters/sed_cmd.md)
 * [PERL](chapters/perl_cmd.md)
 * [PYTHON](chapters/python_cmd.md)
 
@@ -40,7 +40,7 @@ The above will show a detail manual page for the grep command.
 * [Yarn commands](chapters/yarn.md)
 
 ## Remote Session Management / Connection
-* [SSH](chapters/ssh_cmd.md)
+* [Remote shell (ssh)](chapters/ssh_cmd.md)
 * [TMUX](chapters/tmux_cmd.md)
 * [SCREEN](chapters/screen_cmd.md)
 

@@ -33,7 +33,7 @@ To delete a directory and all its contents, use the `rm -rf` command. **Warning*
 $ rm -rf foo
 ```
 
-## Copying a directory
+## Copying a Directory
 Use `cp` with recursive `-r` option to copy an entire directory
 ```bash
 $ cp -r src_dir dst_dir
