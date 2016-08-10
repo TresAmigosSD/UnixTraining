@@ -33,6 +33,12 @@ To delete a directory and all its contents, use the `rm -rf` command. **Warning*
 $ rm -rf foo
 ```
 
+## Copying a directory
+Use `cp` with recursive `-r` option to copy an entire directory
+```bash
+$ cp -r src_dir dst_dir
+```
+
 ## Directory Space Usage
 * `du` can be used to determine how much space a directory is using.
 * `df` can be used to determine how much space is availabe on the drive.
