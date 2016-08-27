@@ -144,3 +144,75 @@ The above script will create a backup of the given file name.  It can be used as
 // this will create a backup of foo.c as foo.c.bak
 $ backup foo.c
 ```
+
+#### Script Arguments
+Similar to function arguments described above, scripts can accept command line arguments and they are available inside the script as `$1`..`$9` for the nth argument and `$@` for all the arguments.
+
+#### For Loops
+The above `backup` example only operates on one file at a time.  To extend it to allow for multiple files, we need to iterate over all the arguments using the `for` loop.  `for` loops allows iteration over a sequence of items (e.g. the command line arguments) and sets a variable for each iteration of the loop.  For example:
+```bash
+$ for x in 2 4 6 8; do echo $x; done
+2
+4
+6
+8
+```
+Since the command line arguments are available as `$@`, we can modify the `backup` script as follows:
+```bash
+#!/bin/bash
+# this file is: "~/Scripts/backup"
+for f in $@; do
+  cp $f $f.bak
+done
+```
+And now the script can be called with multiple files:
+```bash
+$ backup a.c b.c c.c
+```
+This will create `a.c.bak`, `b.c.bak`, and `c.c.bak` files.
+
+#### Error Handling / Conditionals
+To make the script more robust, we should handle error conditions such as user not supplying any command line arguments.  To test if a certain condition holds, use the `if` script command.
+```bash
+#!/bin/bash
+# this file is: "~/Scripts/backup"
+
+if [ $# -eq 0 ]; then
+  echo "ERROR: Missing files argument"
+  exit 1
+fi
+
+for f in $@; do
+  cp $f $f.bak
+done
+```
+And now the script can be called with multiple files:
+```bash
+$ backup a.c b.c c.c
+```
+
+#### Script Functions
+Once scripts get large, they should be broken up into smaller chunks inside functions.  A script may contain one or more functions that can be called from other functions or the "main" section of the script.
+```bash
+#!/bin/bash
+
+function sayHello()
+{
+  echo Hello $@
+}
+function sayBye()
+{
+  echo Bye $@
+}
+
+#---- main
+sayHello Alice
+sayHello Bob
+sayBye Bob
+```
+Running the above script would produce the following output:
+```
+Hello Alice
+Hello Bob
+Bye Bob
+```
