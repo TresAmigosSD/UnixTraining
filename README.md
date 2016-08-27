@@ -39,6 +39,11 @@ The above will show a detail manual page for the grep command.
 * [Hadoop filesystem](chapters/hdfs.md)
 * [Yarn commands](chapters/yarn.md)
 
+## Development Environment
+* [shell](shell.md)
+* [Source Control](git_cmd.md)
+* [Integrated Development Environments (IDE)][ide.md]
+
 ## Remote Session Management / Connection
 * [Remote shell (ssh)](chapters/ssh_cmd.md)
 * [TMUX](chapters/tmux_cmd.md)
