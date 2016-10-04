@@ -14,7 +14,7 @@ The above will show a detail manual page for the grep command.
 * [Input/output redirection](chapters/redirect.md)
 * [File hex dump](chapters/od_cmd.md)
 * [Unix vs. Dos/Windows text files](chapters/dos_unix_files.md)
-* [File & Directory permissions](chapters/file_permission.md) :soon:
+* [File & Directory permissions](chapters/file_permission.md) :new:
 * [Translate characters](chapters/tr_cmd.md)
 * [Removing funny/weird characters](chapters/funny_chars.md)
 * [Searching files](chapters/grep_cmd.md)
@@ -47,7 +47,7 @@ The above will show a detail manual page for the grep command.
 
 ## Remote Session Management / Connection
 * [Remote shell (ssh)](chapters/ssh_cmd.md)
-* [TMUX](chapters/tmux_cmd.md)
+* [TMUX](chapters/tmux_cmd.md) :new:
 * [SCREEN](chapters/screen_cmd.md)
 
 ## Virtualization Frameworks
