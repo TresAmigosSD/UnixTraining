@@ -14,6 +14,7 @@ The above will show a detail manual page for the grep command.
 * [Input/output redirection](chapters/redirect.md)
 * [File hex dump](chapters/od_cmd.md)
 * [Unix vs. Dos/Windows text files](chapters/dos_unix_files.md)
+* [File & Directory permissions](chapters/file_permission.md) :soon:
 * [Translate characters](chapters/tr_cmd.md)
 * [Removing funny/weird characters](chapters/funny_chars.md)
 * [Searching files](chapters/grep_cmd.md)
